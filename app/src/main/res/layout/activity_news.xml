@@ -39,7 +39,9 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        android:background="@color/white"
+        app:backgroundTint="#27496e"
+        app:itemIconTint="@drawable/buttom_nav_icon_color_selector"
+        app:itemTextColor="@drawable/buttom_nav_icon_color_selector"
         app:menu="@menu/buttom_navigation_menu" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

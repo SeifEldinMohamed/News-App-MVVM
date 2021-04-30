@@ -2,7 +2,8 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:id="@+id/breakingNewsFragment"
         android:icon="@drawable/ic_breaking_news"
-        android:title="Breaking News">
+        android:title="Breaking News"
+        >
     </item>
     <item android:id="@+id/savedNewsFragment"
         android:icon="@drawable/ic_favorite"

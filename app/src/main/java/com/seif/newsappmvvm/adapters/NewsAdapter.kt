@@ -56,7 +56,7 @@ class NewsAdapter: RecyclerView.Adapter<NewsAdapter.ArticleViewHolder>() {
             tvSource.text = article.source?.name
             tvTitle.text = article.title
             tvDescription.text = article.description
-            tvPublishedAt.text = article.publishedAt
+            tvPublishedAt.text = article.publishedAt.toString().replace("T","\n").replace("Z","")
             setOnClickListener {
                 onItemClickListener?.let { it(article) }
 //                val intent = Intent(Intent.ACTION_VIEW,
