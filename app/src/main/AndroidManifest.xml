@@ -13,13 +13,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.NewsAppMVVM">
-        <activity android:name=".ui.Splash" />
-        <activity android:name=".ui.NewsActivity">
+        <activity android:name=".ui.Splash"
+            android:theme="@style/Theme.splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".ui.NewsActivity">
+
         </activity>
     </application>
 
