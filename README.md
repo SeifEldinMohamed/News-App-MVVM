@@ -1,4 +1,6 @@
 # MVVM News App
+<img src = "screen%20shots/icon.png" width = "150">
+
 # Description
 NewsApp is a tiny little app which brings the latest news from newsApi.org . Internally app uses News API to fetch the details.
 This app is built using Clean + MVVM architecture, uses Retrofit2 for making API calls and uses Room database to cache the data.
