@@ -8,7 +8,6 @@ import com.seif.newsappmvvm.R
 import kotlinx.android.synthetic.main.activity_splash.*
 
 class Splash : AppCompatActivity() {
-
     private val splashTime: Long = 2000L
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -19,7 +18,5 @@ class Splash : AppCompatActivity() {
         Handler().postDelayed({
             startActivity(Intent(this, NewsActivity::class.java))
         }, splashTime)
-
-
     }
 }
