@@ -1,5 +1,5 @@
 # MVVM News App
-<img src = "screen%20shots/icon.png" width = "150">
+<img src = "screen%20shots/icon.png" width = "100">
 
 # Description
 NewsApp is a tiny little app which brings the latest news from newsApi.org . Internally app uses News API to fetch the details.
