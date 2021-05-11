@@ -7,6 +7,18 @@ This app is built using Clean + MVVM architecture, uses Retrofit2 for making API
 We can save our favourite articles so you can see them more than one time (you can delete it after that). 
 Also uses pagination to prevent loading the hole data at one time.
 
+# Using
+- MVVM Architecture
+- Room Database
+- Navigation Components
+- Kotlin Coroutines
+- Retrofit
+- Pagination
+- Glide
+- Swipe Down To Refresh
+- Action with Animation
+- Search View
+
 # Screen Shots
 <img src = "screen%20shots/home.jpeg" width = "300">
 <img src = "screen%20shots/saved.jpeg" width = "300">
