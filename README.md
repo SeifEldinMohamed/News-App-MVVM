@@ -7,7 +7,7 @@ This app is built using Clean + MVVM architecture, uses Retrofit2 for making API
 We can save our favourite articles so you can see them more than one time (you can delete it after that). 
 Also uses pagination to prevent loading the hole data at one time.
 
-# I have used:
+# I have used
 - MVVM Architecture
 - Room Database
 - Navigation Components
