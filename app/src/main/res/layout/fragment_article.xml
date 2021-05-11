@@ -21,10 +21,12 @@
         android:layout_marginEnd="32dp"
         android:layout_marginBottom="32dp"
         android:src="@drawable/ic_favorite"
+        android:tint="#FFFFFF"
         app:backgroundTint="#27496e"
         app:fabSize="normal"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 

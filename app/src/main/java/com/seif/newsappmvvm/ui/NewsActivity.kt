@@ -1,5 +1,6 @@
 package com.seif.newsappmvvm.ui
 
+import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.lifecycle.ViewModelProvider
@@ -9,6 +10,7 @@ import com.seif.newsappmvvm.R
 import com.seif.newsappmvvm.database.ArticleDataBase
 import com.seif.newsappmvvm.repository.NewsRepository
 import kotlinx.android.synthetic.main.activity_news.*
+import kotlinx.android.synthetic.main.fragment_article.*
 
 class NewsActivity : AppCompatActivity() {
     lateinit var viewModel : NewsViewModel
@@ -22,8 +24,6 @@ class NewsActivity : AppCompatActivity() {
 
         // to set up the navigation
         bottomNavigationView.setupWithNavController(newsNavHostFragment.findNavController())
-
-
 
     }
 }

@@ -17,6 +17,7 @@ class Splash : AppCompatActivity() {
         txt_companyName.animate().setDuration(2000).alpha(1.5f)
         Handler().postDelayed({
             startActivity(Intent(this, NewsActivity::class.java))
+            finish()
         }, splashTime)
     }
 }
