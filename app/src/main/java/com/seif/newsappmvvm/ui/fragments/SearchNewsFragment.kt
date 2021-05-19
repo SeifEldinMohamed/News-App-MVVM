@@ -75,6 +75,7 @@ class SearchNewsFragment : Fragment(R.layout.fragment_search_news) {
 
                         if (isLastPage) {
                             rvSearchNews.setPadding(0, 0, 0, 0)
+
                         }
                     }
                 }
@@ -90,6 +91,13 @@ class SearchNewsFragment : Fragment(R.layout.fragment_search_news) {
                 }
             }
         })
+
+        swipeToRefresh.setOnRefreshListener {
+            if (edit.text.toString().isNotEmpty()) {
+                viewModel.searchNews(edit.text.toString())
+            }
+            swipeToRefresh.isRefreshing = false
+        }
 
     }
 

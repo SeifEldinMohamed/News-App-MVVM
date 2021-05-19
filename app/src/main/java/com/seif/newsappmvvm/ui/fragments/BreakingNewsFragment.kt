@@ -38,7 +38,6 @@ class BreakingNewsFragment : Fragment(R.layout.fragment_breaking_news) {
             )
         }
 
-
         // we basically subscribe to all the changes regarding their life data.
         viewModel.breakingNews.observe(viewLifecycleOwner, Observer { response ->
             when (response) {
@@ -72,6 +71,11 @@ class BreakingNewsFragment : Fragment(R.layout.fragment_breaking_news) {
                 }
             }
         })
+
+        swipeRefresh.setOnRefreshListener {
+            viewModel.getBreakingNews("us")
+            swipeRefresh.isRefreshing = false
+        }
 
     }
 
